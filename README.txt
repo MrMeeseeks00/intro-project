@@ -1,0 +1,1 @@
+landing page molto semplice, non responsive
