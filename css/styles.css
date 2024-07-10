@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*---- NAVBAR -----*/
+
+.navbar {
+    max-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+}
+ .logo img {
+    width: 70px;
+    height: auto;
+    margin: 5px 20px;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  li {
+    float: left;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: darkgreen;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  button {
+    border-radius: 20px;
+    background-color: gray;
+    border-color: green;
+    border-width: 2px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: darkgray;
+  }
+
+  .prenotazione {
+    color: whitesmoke;
+    margin: 10px 20px;
+    padding: 10px 40px;
+    font-size: medium;
+    font-weight: 600;
+    color 
+  }
+
+  /*---- BODY ----*/
+
+  .corpo {
+    background-image: url("../images/sfondo-1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  .intro {
+    width: 500px;
+    margin: 2px 50px;
+    
+    
+  }
+
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .fa {
+    padding: 20px 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: red;
+    color: white;
+  }
+ 
+
+/* FOOTER */
+
+footer {
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px
+}
+
+
+
